@@ -1,0 +1,31 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100 px;
+    font-weight:700;
+    font-size: 25 px;
+    margin: 10 px;
+}
+
+.mio-container {
+
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
