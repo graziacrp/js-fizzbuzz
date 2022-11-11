@@ -12,27 +12,27 @@ for( let i = 0; i < 100 ; i++){
 
   if ((Numeri % 3 == 0) && (Numeri % 5 != 0)){
 
-    Numeri = "(Fizz)" + n;
+    risultato = "(Fizz)" ;
     console.log("Fizz      "+ n);
 
   } else if ((Numeri % 5 == 0) && (Numeri % 3 != 0)){
    
-    Numeri = `(Buzz)${n}`;
+    risultato = `(Buzz)`;
     console.log("Buzz      " + n );
 
     
   } else if ((Numeri % 3 == 0) && (Numeri % 5 == 0)){
 
-    Numeri = `FizzBuzz ${n}`;
+    risultato = `(FizzBuzz) `;
     console.log("FizzBuzz " + n);
     
   } else {
-    Numeri = "" + n;
+    risultato = "" + n;
     console.log("numeri senza modifiche" + n);
     
   }
 
-  elementi += "<li>" + Numeri + "</li>";
+  elementi += "<li>" + risultato + "</li>" ;
   
 }
 list.innerHTML= elementi;
