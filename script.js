@@ -23,11 +23,11 @@ for( let i = 0; i < 100 ; i++){
     
   } else if ((Numeri % 3 == 0) && (Numeri % 5 == 0)){
 
-    Numeri = `(FizzBuzz)${n}`;
+    Numeri = `FizzBuzz ${n}`;
     console.log("FizzBuzz " + n);
     
   } else {
-    Numeri = "(numeri senza modifiche)" + n;
+    Numeri = "" + n;
     console.log("numeri senza modifiche" + n);
     
   }
